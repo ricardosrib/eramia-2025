@@ -1,0 +1,10 @@
+name: curso-eramia-25
+channels:
+  - anaconda
+  - conda-forge
+  - rdkit
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - -r requirements.txt

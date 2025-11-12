@@ -1,0 +1,9 @@
+service: "service:svc"
+description: "blood-brain barrier permeability prediction"
+labels:
+  owner: ricardosoares
+  stage: dev
+include:
+  - "*"
+conda:
+  environment_yml: "./environment.yml"
